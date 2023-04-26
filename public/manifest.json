@@ -1,0 +1,10 @@
+{
+    "name": "新标签页",
+    "version": "1.0",
+    "description": "A custom tab page for Google Chrome",
+    "manifest_version": 3,
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+    "permissions": ["tabs", "bookmarks", "topSites", "activeTab", "scripting"]
+  }
